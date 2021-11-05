@@ -1,0 +1,65 @@
+.app {
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  background-image: url("./assets/bkg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
+
+.bkg {
+  width: 0vw;
+  height: 0vh;
+  backdrop-filter: blur(15px);
+  background-color: transparent;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  position:absolute;
+  flex-wrap: wrap;
+  align-content: space-between;
+} 
+
+.citycontainer{
+  position: relative;
+  margin: 8rem; 
+}
+
+.citiesContainer {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 8rem;
+  margin-right: 18rem;
+
+
+
+} 
+
+
+
+
+
+/* .container {
+  width: 70vw;
+  height: 60vh;
+  margin: 15vh 15vw;
+  top: 0;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr minmax(12rem, 20vh);
+  border-radius: 1.5rem;
+  position:absolute;
+}  */
+
+
+
